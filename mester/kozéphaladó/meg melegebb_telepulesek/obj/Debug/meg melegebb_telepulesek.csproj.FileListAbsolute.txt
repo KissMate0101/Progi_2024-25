@@ -5,3 +5,17 @@ H:\prog 11\c#\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melege
 H:\prog 11\c#\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.csproj.CoreCompileInputs.cache
 H:\prog 11\c#\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.exe
 H:\prog 11\c#\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.pdb
+H:\prog 11\Progi_2024-25\mester\kozéphaladó\meg melegebb_telepulesek\bin\Debug\meg melegebb_telepulesek.exe.config
+H:\prog 11\Progi_2024-25\mester\kozéphaladó\meg melegebb_telepulesek\bin\Debug\meg melegebb_telepulesek.exe
+H:\prog 11\Progi_2024-25\mester\kozéphaladó\meg melegebb_telepulesek\bin\Debug\meg melegebb_telepulesek.pdb
+H:\prog 11\Progi_2024-25\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.csproj.AssemblyReference.cache
+H:\prog 11\Progi_2024-25\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.csproj.CoreCompileInputs.cache
+H:\prog 11\Progi_2024-25\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.exe
+H:\prog 11\Progi_2024-25\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.pdb
+Z:\2022_C\kiss.mate2008\prog 11\Progi_2024-25\mester\kozéphaladó\meg melegebb_telepulesek\bin\Debug\meg melegebb_telepulesek.exe.config
+Z:\2022_C\kiss.mate2008\prog 11\Progi_2024-25\mester\kozéphaladó\meg melegebb_telepulesek\bin\Debug\meg melegebb_telepulesek.exe
+Z:\2022_C\kiss.mate2008\prog 11\Progi_2024-25\mester\kozéphaladó\meg melegebb_telepulesek\bin\Debug\meg melegebb_telepulesek.pdb
+Z:\2022_C\kiss.mate2008\prog 11\Progi_2024-25\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.csproj.AssemblyReference.cache
+Z:\2022_C\kiss.mate2008\prog 11\Progi_2024-25\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.csproj.CoreCompileInputs.cache
+Z:\2022_C\kiss.mate2008\prog 11\Progi_2024-25\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.exe
+Z:\2022_C\kiss.mate2008\prog 11\Progi_2024-25\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.pdb
