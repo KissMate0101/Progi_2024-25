@@ -1,0 +1,7 @@
+H:\prog 11\c#\Ciklusok (mpappa)\osztok\bin\Debug\osztok.exe.config
+H:\prog 11\c#\Ciklusok (mpappa)\osztok\bin\Debug\osztok.exe
+H:\prog 11\c#\Ciklusok (mpappa)\osztok\bin\Debug\osztok.pdb
+H:\prog 11\c#\Ciklusok (mpappa)\osztok\obj\Debug\osztok.csproj.AssemblyReference.cache
+H:\prog 11\c#\Ciklusok (mpappa)\osztok\obj\Debug\osztok.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Ciklusok (mpappa)\osztok\obj\Debug\osztok.exe
+H:\prog 11\c#\Ciklusok (mpappa)\osztok\obj\Debug\osztok.pdb

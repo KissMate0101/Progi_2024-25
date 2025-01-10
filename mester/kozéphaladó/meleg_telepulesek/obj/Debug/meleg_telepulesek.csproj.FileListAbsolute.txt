@@ -1,0 +1,7 @@
+H:\prog 11\c#\mester\kozéphaladó\meleg_telepulesek\obj\Debug\meleg_telepulesek.csproj.AssemblyReference.cache
+H:\prog 11\c#\mester\kozéphaladó\meleg_telepulesek\obj\Debug\meleg_telepulesek.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\mester\kozéphaladó\meleg_telepulesek\bin\Debug\meleg_telepulesek.exe.config
+H:\prog 11\c#\mester\kozéphaladó\meleg_telepulesek\bin\Debug\meleg_telepulesek.exe
+H:\prog 11\c#\mester\kozéphaladó\meleg_telepulesek\bin\Debug\meleg_telepulesek.pdb
+H:\prog 11\c#\mester\kozéphaladó\meleg_telepulesek\obj\Debug\meleg_telepulesek.exe
+H:\prog 11\c#\mester\kozéphaladó\meleg_telepulesek\obj\Debug\meleg_telepulesek.pdb

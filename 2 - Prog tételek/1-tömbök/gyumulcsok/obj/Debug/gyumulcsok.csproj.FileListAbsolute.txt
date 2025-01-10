@@ -1,0 +1,7 @@
+H:\prog 11\c#\Prog tételek\1-tömbök\gyumulcsok\bin\Debug\gyumulcsok.exe.config
+H:\prog 11\c#\Prog tételek\1-tömbök\gyumulcsok\bin\Debug\gyumulcsok.exe
+H:\prog 11\c#\Prog tételek\1-tömbök\gyumulcsok\bin\Debug\gyumulcsok.pdb
+H:\prog 11\c#\Prog tételek\1-tömbök\gyumulcsok\obj\Debug\gyumulcsok.csproj.AssemblyReference.cache
+H:\prog 11\c#\Prog tételek\1-tömbök\gyumulcsok\obj\Debug\gyumulcsok.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Prog tételek\1-tömbök\gyumulcsok\obj\Debug\gyumulcsok.exe
+H:\prog 11\c#\Prog tételek\1-tömbök\gyumulcsok\obj\Debug\gyumulcsok.pdb

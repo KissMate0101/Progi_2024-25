@@ -1,0 +1,7 @@
+H:\prog 11\c#\Ciklusok (mpappa)\hatványozás\hatványozás\bin\Debug\hatványozás.exe.config
+H:\prog 11\c#\Ciklusok (mpappa)\hatványozás\hatványozás\bin\Debug\hatványozás.exe
+H:\prog 11\c#\Ciklusok (mpappa)\hatványozás\hatványozás\bin\Debug\hatványozás.pdb
+H:\prog 11\c#\Ciklusok (mpappa)\hatványozás\hatványozás\obj\Debug\hatványozás.csproj.AssemblyReference.cache
+H:\prog 11\c#\Ciklusok (mpappa)\hatványozás\hatványozás\obj\Debug\hatványozás.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Ciklusok (mpappa)\hatványozás\hatványozás\obj\Debug\hatványozás.exe
+H:\prog 11\c#\Ciklusok (mpappa)\hatványozás\hatványozás\obj\Debug\hatványozás.pdb

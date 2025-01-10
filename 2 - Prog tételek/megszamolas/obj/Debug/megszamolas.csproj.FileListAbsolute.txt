@@ -1,0 +1,7 @@
+H:\prog 11\c#\Prog tételek\megszamolas\bin\Debug\megszamolas.exe.config
+H:\prog 11\c#\Prog tételek\megszamolas\bin\Debug\megszamolas.exe
+H:\prog 11\c#\Prog tételek\megszamolas\bin\Debug\megszamolas.pdb
+H:\prog 11\c#\Prog tételek\megszamolas\obj\Debug\megszamolas.csproj.AssemblyReference.cache
+H:\prog 11\c#\Prog tételek\megszamolas\obj\Debug\megszamolas.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Prog tételek\megszamolas\obj\Debug\megszamolas.exe
+H:\prog 11\c#\Prog tételek\megszamolas\obj\Debug\megszamolas.pdb

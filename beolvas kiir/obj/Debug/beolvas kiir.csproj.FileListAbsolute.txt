@@ -1,0 +1,7 @@
+H:\prog 11\c#\beolvas kiir\bin\Debug\beolvas kiir.exe.config
+H:\prog 11\c#\beolvas kiir\bin\Debug\beolvas kiir.exe
+H:\prog 11\c#\beolvas kiir\bin\Debug\beolvas kiir.pdb
+H:\prog 11\c#\beolvas kiir\obj\Debug\beolvas kiir.csproj.AssemblyReference.cache
+H:\prog 11\c#\beolvas kiir\obj\Debug\beolvas kiir.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\beolvas kiir\obj\Debug\beolvas kiir.exe
+H:\prog 11\c#\beolvas kiir\obj\Debug\beolvas kiir.pdb

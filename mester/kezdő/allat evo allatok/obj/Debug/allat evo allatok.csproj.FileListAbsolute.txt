@@ -1,0 +1,7 @@
+H:\prog 11\c#\mester\kezdő\allat evo allatok\bin\Debug\allat evo allatok.exe.config
+H:\prog 11\c#\mester\kezdő\allat evo allatok\bin\Debug\allat evo allatok.exe
+H:\prog 11\c#\mester\kezdő\allat evo allatok\bin\Debug\allat evo allatok.pdb
+H:\prog 11\c#\mester\kezdő\allat evo allatok\obj\Debug\allat evo allatok.csproj.AssemblyReference.cache
+H:\prog 11\c#\mester\kezdő\allat evo allatok\obj\Debug\allat evo allatok.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\mester\kezdő\allat evo allatok\obj\Debug\allat evo allatok.exe
+H:\prog 11\c#\mester\kezdő\allat evo allatok\obj\Debug\allat evo allatok.pdb

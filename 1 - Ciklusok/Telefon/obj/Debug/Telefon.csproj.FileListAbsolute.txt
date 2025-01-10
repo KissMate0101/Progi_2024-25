@@ -1,0 +1,7 @@
+H:\prog 11\c#\Ciklusok\Telefon\bin\Debug\Telefon.exe.config
+H:\prog 11\c#\Ciklusok\Telefon\bin\Debug\Telefon.exe
+H:\prog 11\c#\Ciklusok\Telefon\bin\Debug\Telefon.pdb
+H:\prog 11\c#\Ciklusok\Telefon\obj\Debug\Telefon.csproj.AssemblyReference.cache
+H:\prog 11\c#\Ciklusok\Telefon\obj\Debug\Telefon.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Ciklusok\Telefon\obj\Debug\Telefon.exe
+H:\prog 11\c#\Ciklusok\Telefon\obj\Debug\Telefon.pdb

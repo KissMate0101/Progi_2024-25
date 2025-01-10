@@ -1,0 +1,7 @@
+H:\prog 11\c#\Ciklusok (mpappa)\kocka\obj\Debug\kocka.csproj.AssemblyReference.cache
+H:\prog 11\c#\Ciklusok (mpappa)\kocka\obj\Debug\kocka.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Ciklusok (mpappa)\kocka\bin\Debug\kocka.exe.config
+H:\prog 11\c#\Ciklusok (mpappa)\kocka\bin\Debug\kocka.exe
+H:\prog 11\c#\Ciklusok (mpappa)\kocka\bin\Debug\kocka.pdb
+H:\prog 11\c#\Ciklusok (mpappa)\kocka\obj\Debug\kocka.exe
+H:\prog 11\c#\Ciklusok (mpappa)\kocka\obj\Debug\kocka.pdb

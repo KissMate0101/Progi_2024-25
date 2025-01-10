@@ -1,0 +1,7 @@
+H:\prog 11\c#\Ciklusok (mpappa)\erme\bin\Debug\erme.exe.config
+H:\prog 11\c#\Ciklusok (mpappa)\erme\bin\Debug\erme.exe
+H:\prog 11\c#\Ciklusok (mpappa)\erme\bin\Debug\erme.pdb
+H:\prog 11\c#\Ciklusok (mpappa)\erme\obj\Debug\erme.csproj.AssemblyReference.cache
+H:\prog 11\c#\Ciklusok (mpappa)\erme\obj\Debug\erme.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Ciklusok (mpappa)\erme\obj\Debug\erme.exe
+H:\prog 11\c#\Ciklusok (mpappa)\erme\obj\Debug\erme.pdb

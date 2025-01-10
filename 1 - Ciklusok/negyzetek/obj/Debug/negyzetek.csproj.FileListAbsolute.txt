@@ -1,0 +1,7 @@
+H:\prog 11\c#\Ciklusok (mpappa)\negyzetek\bin\Debug\negyzetek.exe.config
+H:\prog 11\c#\Ciklusok (mpappa)\negyzetek\bin\Debug\negyzetek.exe
+H:\prog 11\c#\Ciklusok (mpappa)\negyzetek\bin\Debug\negyzetek.pdb
+H:\prog 11\c#\Ciklusok (mpappa)\negyzetek\obj\Debug\negyzetek.csproj.AssemblyReference.cache
+H:\prog 11\c#\Ciklusok (mpappa)\negyzetek\obj\Debug\negyzetek.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Ciklusok (mpappa)\negyzetek\obj\Debug\negyzetek.exe
+H:\prog 11\c#\Ciklusok (mpappa)\negyzetek\obj\Debug\negyzetek.pdb

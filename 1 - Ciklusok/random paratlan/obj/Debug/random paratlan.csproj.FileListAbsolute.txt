@@ -1,0 +1,7 @@
+H:\prog 11\c#\Ciklusok (mpappa)\random paratlan\bin\Debug\random paratlan.exe.config
+H:\prog 11\c#\Ciklusok (mpappa)\random paratlan\bin\Debug\random paratlan.exe
+H:\prog 11\c#\Ciklusok (mpappa)\random paratlan\bin\Debug\random paratlan.pdb
+H:\prog 11\c#\Ciklusok (mpappa)\random paratlan\obj\Debug\random paratlan.csproj.AssemblyReference.cache
+H:\prog 11\c#\Ciklusok (mpappa)\random paratlan\obj\Debug\random paratlan.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Ciklusok (mpappa)\random paratlan\obj\Debug\random paratlan.exe
+H:\prog 11\c#\Ciklusok (mpappa)\random paratlan\obj\Debug\random paratlan.pdb

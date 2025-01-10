@@ -1,0 +1,7 @@
+H:\prog 11\c#\Ciklusok (mpappa)\Csengetés\bin\Debug\Csengetés.exe.config
+H:\prog 11\c#\Ciklusok (mpappa)\Csengetés\bin\Debug\Csengetés.exe
+H:\prog 11\c#\Ciklusok (mpappa)\Csengetés\bin\Debug\Csengetés.pdb
+H:\prog 11\c#\Ciklusok (mpappa)\Csengetés\obj\Debug\Csengetés.csproj.AssemblyReference.cache
+H:\prog 11\c#\Ciklusok (mpappa)\Csengetés\obj\Debug\Csengetés.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Ciklusok (mpappa)\Csengetés\obj\Debug\Csengetés.exe
+H:\prog 11\c#\Ciklusok (mpappa)\Csengetés\obj\Debug\Csengetés.pdb

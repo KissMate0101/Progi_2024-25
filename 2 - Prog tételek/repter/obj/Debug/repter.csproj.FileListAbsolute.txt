@@ -1,0 +1,7 @@
+H:\prog 11\c#\Prog tételek\repter\obj\Debug\repter.csproj.AssemblyReference.cache
+H:\prog 11\c#\Prog tételek\repter\obj\Debug\repter.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Prog tételek\repter\bin\Debug\repter.exe.config
+H:\prog 11\c#\Prog tételek\repter\bin\Debug\repter.exe
+H:\prog 11\c#\Prog tételek\repter\bin\Debug\repter.pdb
+H:\prog 11\c#\Prog tételek\repter\obj\Debug\repter.exe
+H:\prog 11\c#\Prog tételek\repter\obj\Debug\repter.pdb

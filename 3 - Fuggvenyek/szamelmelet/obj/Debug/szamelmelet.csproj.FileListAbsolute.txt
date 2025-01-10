@@ -1,0 +1,7 @@
+H:\prog 11\c#\Fuggvenyek\szamelmelet\bin\Debug\szamelmelet.exe.config
+H:\prog 11\c#\Fuggvenyek\szamelmelet\bin\Debug\szamelmelet.exe
+H:\prog 11\c#\Fuggvenyek\szamelmelet\bin\Debug\szamelmelet.pdb
+H:\prog 11\c#\Fuggvenyek\szamelmelet\obj\Debug\szamelmelet.csproj.AssemblyReference.cache
+H:\prog 11\c#\Fuggvenyek\szamelmelet\obj\Debug\szamelmelet.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Fuggvenyek\szamelmelet\obj\Debug\szamelmelet.exe
+H:\prog 11\c#\Fuggvenyek\szamelmelet\obj\Debug\szamelmelet.pdb

@@ -1,0 +1,7 @@
+H:\prog 11\c#\mester\kozéphaladó\huvosebb_telepulesek\bin\Debug\huvosebb_telepulesek.exe.config
+H:\prog 11\c#\mester\kozéphaladó\huvosebb_telepulesek\bin\Debug\huvosebb_telepulesek.exe
+H:\prog 11\c#\mester\kozéphaladó\huvosebb_telepulesek\bin\Debug\huvosebb_telepulesek.pdb
+H:\prog 11\c#\mester\kozéphaladó\huvosebb_telepulesek\obj\Debug\huvosebb_telepulesek.csproj.AssemblyReference.cache
+H:\prog 11\c#\mester\kozéphaladó\huvosebb_telepulesek\obj\Debug\huvosebb_telepulesek.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\mester\kozéphaladó\huvosebb_telepulesek\obj\Debug\huvosebb_telepulesek.exe
+H:\prog 11\c#\mester\kozéphaladó\huvosebb_telepulesek\obj\Debug\huvosebb_telepulesek.pdb

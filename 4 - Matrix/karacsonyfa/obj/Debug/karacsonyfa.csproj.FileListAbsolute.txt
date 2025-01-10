@@ -1,0 +1,7 @@
+H:\prog 11\c#\4 - Matrix\karacsonyfa\bin\Debug\karacsonyfa.exe.config
+H:\prog 11\c#\4 - Matrix\karacsonyfa\bin\Debug\karacsonyfa.exe
+H:\prog 11\c#\4 - Matrix\karacsonyfa\bin\Debug\karacsonyfa.pdb
+H:\prog 11\c#\4 - Matrix\karacsonyfa\obj\Debug\karacsonyfa.csproj.AssemblyReference.cache
+H:\prog 11\c#\4 - Matrix\karacsonyfa\obj\Debug\karacsonyfa.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\4 - Matrix\karacsonyfa\obj\Debug\karacsonyfa.exe
+H:\prog 11\c#\4 - Matrix\karacsonyfa\obj\Debug\karacsonyfa.pdb

@@ -1,0 +1,7 @@
+H:\prog 11\c#\időkonv\bin\Debug\időkonv.exe.config
+H:\prog 11\c#\időkonv\bin\Debug\időkonv.exe
+H:\prog 11\c#\időkonv\bin\Debug\időkonv.pdb
+H:\prog 11\c#\időkonv\obj\Debug\időkonv.csproj.AssemblyReference.cache
+H:\prog 11\c#\időkonv\obj\Debug\időkonv.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\időkonv\obj\Debug\időkonv.exe
+H:\prog 11\c#\időkonv\obj\Debug\időkonv.pdb

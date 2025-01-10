@@ -1,0 +1,7 @@
+H:\prog 11\c#\Prog tételek\jogositvany\bin\Debug\jogositvany.exe.config
+H:\prog 11\c#\Prog tételek\jogositvany\bin\Debug\jogositvany.exe
+H:\prog 11\c#\Prog tételek\jogositvany\bin\Debug\jogositvany.pdb
+H:\prog 11\c#\Prog tételek\jogositvany\obj\Debug\jogositvany.csproj.AssemblyReference.cache
+H:\prog 11\c#\Prog tételek\jogositvany\obj\Debug\jogositvany.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Prog tételek\jogositvany\obj\Debug\jogositvany.exe
+H:\prog 11\c#\Prog tételek\jogositvany\obj\Debug\jogositvany.pdb

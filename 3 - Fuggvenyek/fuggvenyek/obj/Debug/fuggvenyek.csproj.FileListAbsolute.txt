@@ -1,0 +1,7 @@
+H:\prog 11\c#\Fuggvenyek\fuggvenyek\bin\Debug\fuggvenyek.exe.config
+H:\prog 11\c#\Fuggvenyek\fuggvenyek\bin\Debug\fuggvenyek.exe
+H:\prog 11\c#\Fuggvenyek\fuggvenyek\bin\Debug\fuggvenyek.pdb
+H:\prog 11\c#\Fuggvenyek\fuggvenyek\obj\Debug\fuggvenyek.csproj.AssemblyReference.cache
+H:\prog 11\c#\Fuggvenyek\fuggvenyek\obj\Debug\fuggvenyek.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Fuggvenyek\fuggvenyek\obj\Debug\fuggvenyek.exe
+H:\prog 11\c#\Fuggvenyek\fuggvenyek\obj\Debug\fuggvenyek.pdb

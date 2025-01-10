@@ -1,0 +1,7 @@
+H:\prog 11\c#\Prog tételek\1-tömbök\jegyek\bin\Debug\jegyek.exe.config
+H:\prog 11\c#\Prog tételek\1-tömbök\jegyek\bin\Debug\jegyek.exe
+H:\prog 11\c#\Prog tételek\1-tömbök\jegyek\bin\Debug\jegyek.pdb
+H:\prog 11\c#\Prog tételek\1-tömbök\jegyek\obj\Debug\jegyek.csproj.AssemblyReference.cache
+H:\prog 11\c#\Prog tételek\1-tömbök\jegyek\obj\Debug\jegyek.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Prog tételek\1-tömbök\jegyek\obj\Debug\jegyek.exe
+H:\prog 11\c#\Prog tételek\1-tömbök\jegyek\obj\Debug\jegyek.pdb

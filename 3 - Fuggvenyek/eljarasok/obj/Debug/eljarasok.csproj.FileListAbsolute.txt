@@ -1,0 +1,7 @@
+H:\prog 11\c#\Fuggvenyek\eljarasok\bin\Debug\eljarasok.exe.config
+H:\prog 11\c#\Fuggvenyek\eljarasok\bin\Debug\eljarasok.exe
+H:\prog 11\c#\Fuggvenyek\eljarasok\bin\Debug\eljarasok.pdb
+H:\prog 11\c#\Fuggvenyek\eljarasok\obj\Debug\eljarasok.csproj.AssemblyReference.cache
+H:\prog 11\c#\Fuggvenyek\eljarasok\obj\Debug\eljarasok.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Fuggvenyek\eljarasok\obj\Debug\eljarasok.exe
+H:\prog 11\c#\Fuggvenyek\eljarasok\obj\Debug\eljarasok.pdb

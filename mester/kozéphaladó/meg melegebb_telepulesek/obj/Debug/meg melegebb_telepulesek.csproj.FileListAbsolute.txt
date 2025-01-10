@@ -1,0 +1,7 @@
+H:\prog 11\c#\mester\kozéphaladó\meg melegebb_telepulesek\bin\Debug\meg melegebb_telepulesek.exe.config
+H:\prog 11\c#\mester\kozéphaladó\meg melegebb_telepulesek\bin\Debug\meg melegebb_telepulesek.exe
+H:\prog 11\c#\mester\kozéphaladó\meg melegebb_telepulesek\bin\Debug\meg melegebb_telepulesek.pdb
+H:\prog 11\c#\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.csproj.AssemblyReference.cache
+H:\prog 11\c#\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.exe
+H:\prog 11\c#\mester\kozéphaladó\meg melegebb_telepulesek\obj\Debug\meg melegebb_telepulesek.pdb

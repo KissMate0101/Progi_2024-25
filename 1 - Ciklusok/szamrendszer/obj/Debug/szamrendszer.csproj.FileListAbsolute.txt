@@ -1,0 +1,7 @@
+H:\prog 11\c#\Ciklusok (mpappa)\szamrendszer\bin\Debug\szamrendszer.exe.config
+H:\prog 11\c#\Ciklusok (mpappa)\szamrendszer\bin\Debug\szamrendszer.exe
+H:\prog 11\c#\Ciklusok (mpappa)\szamrendszer\bin\Debug\szamrendszer.pdb
+H:\prog 11\c#\Ciklusok (mpappa)\szamrendszer\obj\Debug\szamrendszer.csproj.AssemblyReference.cache
+H:\prog 11\c#\Ciklusok (mpappa)\szamrendszer\obj\Debug\szamrendszer.csproj.CoreCompileInputs.cache
+H:\prog 11\c#\Ciklusok (mpappa)\szamrendszer\obj\Debug\szamrendszer.exe
+H:\prog 11\c#\Ciklusok (mpappa)\szamrendszer\obj\Debug\szamrendszer.pdb
