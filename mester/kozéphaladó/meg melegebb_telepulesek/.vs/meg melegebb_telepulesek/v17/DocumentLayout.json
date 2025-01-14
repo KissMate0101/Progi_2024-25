@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "Z:\\2022_C\\kiss.mate2008\\prog 11\\Progi_2024-25\\mester\\koz\u00E9phalad\u00F3\\meg melegebb_telepulesek\\",
+  "WorkspaceRootPath": "H:\\prog 11\\Progi_2024-25\\mester\\koz\u00E9phalad\u00F3\\meg melegebb_telepulesek\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72290507-62F0-4D96-9CFA-CD60FBD90ACC}|meg melegebb_telepulesek.csproj|z:\\2022_c\\kiss.mate2008\\prog 11\\progi_2024-25\\mester\\koz\u00E9phalad\u00F3\\meg melegebb_telepulesek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{72290507-62F0-4D96-9CFA-CD60FBD90ACC}|meg melegebb_telepulesek.csproj|h:\\prog 11\\progi_2024-25\\mester\\koz\u00E9phalad\u00F3\\meg melegebb_telepulesek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72290507-62F0-4D96-9CFA-CD60FBD90ACC}|meg melegebb_telepulesek.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "Z:\\2022_C\\kiss.mate2008\\prog 11\\Progi_2024-25\\mester\\koz\u00E9phalad\u00F3\\meg melegebb_telepulesek\\Program.cs",
+              "DocumentMoniker": "H:\\prog 11\\Progi_2024-25\\mester\\koz\u00E9phalad\u00F3\\meg melegebb_telepulesek\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "Z:\\2022_C\\kiss.mate2008\\prog 11\\Progi_2024-25\\mester\\koz\u00E9phalad\u00F3\\meg melegebb_telepulesek\\Program.cs",
+              "ToolTip": "H:\\prog 11\\Progi_2024-25\\mester\\koz\u00E9phalad\u00F3\\meg melegebb_telepulesek\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAjwGAAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T09:07:58.865Z",
               "EditorCaption": ""
