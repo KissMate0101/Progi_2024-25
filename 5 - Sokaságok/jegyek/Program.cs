@@ -21,16 +21,20 @@ namespace jegyek
             LegjobbT(tanulok);
         }
 
-        private static void LegjobbT(List<List<int>> tanulok)
+        static void LegjobbT(List<List<int>> tanulok)
         {
-            int maxi = 0;
+            Console.WriteLine();
+            Console.WriteLine("\n3. feladat: ");
             for (int i = 0; i < tanulok.Count; i++)
             {
+                int maxi = 0;
+                int maxe = 0;
                 for (int j = 0; j < tanulok[i].Count; j++)
                 {
-                    if (tanulok[i][j] > maxi)
+                    if (tanulok[i][j] > maxe)
                     {
-                        maxi = tanulok[i][j];
+                        maxe = tanulok[i][j];
+                        maxi = j;
                     }
                 }
                 Console.WriteLine(i + 1);
@@ -39,7 +43,7 @@ namespace jegyek
 
         static void Atlagok2(List<List<int>> tanulok)
         {
-            Console.WriteLine("\n2. feladat: ");
+            Console.WriteLine("\n2. feladat(2): ");
             Console.Write("Átlagok: ");
             foreach (List<int> tanulo in tanulok)
             {
@@ -72,7 +76,7 @@ namespace jegyek
 
         static void Kiir2(List<List<int>> tanulok)
         {
-            Console.WriteLine("\n1. feladat: ");
+            Console.WriteLine("\n1. feladat(2): ");
             foreach (var tanulo in tanulok)
             {
                 Console.Write( ". tanuló: ");
