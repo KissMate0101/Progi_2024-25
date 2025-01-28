@@ -11,17 +11,42 @@ namespace Halak
             Beolvas(matrix, out n, out m);
 
             Halfajtak(matrix, n, m);
+
+            Horgasz(matrix, n, m);
+
+
         }
 
-        private static void Halfajtak(int[,] matrix, int n, int m)
+        static void Horgasz(int[,] matrix, int n, int m)
         {
-            int ossz = 0;
+            Console.Write("\n3. feladat: ");
+            int j;
             for (int i = 0; i < n; i++)
             {
-                for (int j = 0; j < m; j++)
+                j = 0;
+                while (j < m && !(matrix[i, j] == 0))
                 {
-
+                    j++;
                 }
+                if (j < m)
+                {
+                    Console.Write(i + 1 + " ");
+                }          
+            }
+        }
+
+        static void Halfajtak(int[,] matrix, int n, int m)
+        {
+            Console.Write("\n2. feladat: ");
+            int ossz;
+            for (int i = 0; i < m; i++)
+            {
+                ossz = 0;
+                for (int j = 0; j < n; j++)
+                {
+                    ossz += matrix[j, i];
+                }
+                Console.Write(ossz + " ");
             }
         }
 
@@ -29,7 +54,7 @@ namespace Halak
         {
             string[] sor = Console.ReadLine().Split(' ');
             n = Convert.ToInt32(sor[0]);
-            m = Convert.ToInt32(sor[0]);
+            m = Convert.ToInt32(sor[1]);
             for (int i = 0; i < n; i++)
             {
                 sor = Console.ReadLine().Split(' ');
