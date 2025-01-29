@@ -30,7 +30,7 @@ namespace Halmaz
             Console.WriteLine();
             Console.WriteLine("--------------------------------------");
             Console.WriteLine();
-            
+
 
             HashSet<string> halmaz1 = new HashSet<string> { "Bence", "Réka", "Máté", "Pisti", "Johanna", "Kata" };
             HashSet<string> halmaz2 = new HashSet<string> { "Máté", "Zalán", "Csaba", "Kata", "Bence" };
@@ -51,14 +51,56 @@ namespace Halmaz
             Console.WriteLine();
             Console.WriteLine("--------------------------------------");
             Console.WriteLine();
-            HashSet<string> bitfarago = new HashSet<string> { "Máté", "Csaba", "Zalán"};
+            HashSet<string> bitfarago = new HashSet<string> { "Máté", "Csaba", "Zalán" };
             Console.WriteLine("Részhalmaz-e (halmaz1): " + Reszhalmaz(bitfarago, halmaz1));
             Console.WriteLine("Részhalmaz-e (halmaz2): " + Reszhalmaz(bitfarago, halmaz2));
 
             Console.WriteLine();
             Console.WriteLine("--------------------------------------");
             Console.WriteLine();//Van e olyan aki mindket versenyen elindult?
-            Console.WriteLine("");
+            Console.WriteLine("Mindkét verseny: " + MindKet(bitfarago, halmaz1));
+
+            Console.WriteLine();
+            Console.WriteLine("--------------------------------------");
+            Console.WriteLine();
+
+            HashSet<string> metszet = new HashSet<string>(halmaz1);
+            metszet.IntersectWith(halmaz2);
+            Kiir("Mindkettő: ", metszet);
+
+            Console.WriteLine();
+
+            HashSet<string> unio = new HashSet<string>(halmaz1);
+            unio.UnionWith(halmaz2);
+            Kiir("Legalább egyik verseny: ", unio);
+
+            Console.WriteLine();
+
+            HashSet<string> kulonbseg = new HashSet<string>(halmaz1);
+            kulonbseg.ExceptWith(halmaz2);
+            Kiir("Csak az 1. versenyen indultak: ", kulonbseg);
+
+            Console.WriteLine();
+
+            Console.WriteLine("Részhalmaz-e: " + bitfarago.IsSubsetOf(halmaz1));
+            Console.WriteLine("Részhalmaz-e: " + bitfarago.IsSubsetOf(halmaz2));
+            Console.WriteLine("Valódi részhalmaz-e: " + bitfarago.IsProperSubsetOf(halmaz2));
+
+            Console.WriteLine();
+
+            Console.WriteLine("Van e közös elem: " + bitfarago.Overlaps(halmaz1));
+        }
+            static bool MindKet(HashSet<string> halmaz1, HashSet<string> halmaz2)
+        {
+            bool mindket = false;
+            foreach (string elem in halmaz1)
+            {
+                if (halmaz2.Contains(elem))
+                {
+                    mindket = true;
+                }
+            }
+            return mindket;
         }
 
         static bool Reszhalmaz(HashSet<string> halmaz1, HashSet<string> halmaz2)
