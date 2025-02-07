@@ -20,6 +20,53 @@ namespace jegyek
 
             LegjobbT(tanulok);
             List<double> atlag = Atlagok2(tanulok);
+
+            List<int> fasz = new List<int>();
+            Beolvas(fasz);
+            Kiir(fasz);
+
+            HashSet<string> sunaszagpergeto = new HashSet<string>();
+            Beolvas(sunaszagpergeto);
+            Kiir(sunaszagpergeto);
+        }
+
+        static void Kiir(HashSet<string> sunaszagpergeto)
+        {
+            foreach (string item in sunaszagpergeto)
+            {
+                Console.WriteLine(item + " ");
+            }
+        }
+
+        static void Beolvas(HashSet<string> sunaszagpergeto)
+        {
+            int n = int.Parse(Console.ReadLine());
+            for (int i = 0; i < n; i++)
+            {
+                string sor = Console.ReadLine();
+                sunaszagpergeto.Add(sor);
+            }
+        }
+
+        static void Kiir(List<int> fasz)
+        {
+            foreach (int item in fasz)
+            {
+                Console.WriteLine(item + " ");
+            }
+        }
+
+
+        private static void Beolvas(List<int> fasz)
+        {
+            int n = int.Parse(Console.ReadLine());
+
+
+            for (int i = 0; i < n; i++)
+            {
+                string sor = Console.ReadLine();
+                fasz.Add(int.Parse(sor));
+            }
         }
 
         private static void LegjobbT(List<List<int>> tanulok)
