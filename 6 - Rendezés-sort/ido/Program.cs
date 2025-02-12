@@ -11,7 +11,7 @@ namespace ido
             Stopwatch ora = new Stopwatch(); // Példányosítás
             Console.WriteLine("Gyakoriság: " + Stopwatch.Frequency + " Hz"); // 1 sec alatt --> 10000000 tick --> 10 Mghz
 
-            const int n = 100000; 
+            const int n = 100; 
 
             ora.Start();
             List<int> l = Feltolt(n);

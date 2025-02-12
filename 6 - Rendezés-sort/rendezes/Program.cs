@@ -38,6 +38,35 @@ namespace rendezes
 
             Console.WriteLine("\nSort ideje: " + idosort);
             Console.WriteLine("MIndrendez ideje: " + mindrendez);
+            ora.Reset();
+
+            List<int> c = new List<int>(lista);
+            ora.Start();
+            Buborekos(c);
+            ora.Stop();
+            long Buborekosrendezes = ora.ElapsedTicks;
+            Console.Write("Buborékos rendetés: " +  Buborekosrendezes);
+            //Kiir(c);
+
+            Console.WriteLine();
+        }
+
+        static void Buborekos(List<int> lista)
+        {
+            int n = lista.Count;
+            for (int i = 0; i < n; i++)
+            {
+                bool csere = false;
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    if (lista[j] > lista[j + 1])
+                    {
+                        Csere(lista, i, j + 1);
+                        csere = true;
+                    }
+                }
+                if (!csere) return;
+            }
         }
 
         static List<int> Feltolt(int n)
