@@ -12,7 +12,9 @@ namespace rendezes
             Stopwatch ora = new Stopwatch();
 
             //List<int> lista = new List<int> { 5, 3, 8, 5, 2 }; // 2, 3, 5, 5, 8
-            List<int> lista = Feltolt(10000);
+            //List<int> lista = Feltolt(10000);
+            //List<int> lista = FeltoltRendezett(100);
+            List<int> lista = FeltoltMajdenmRendezett(10000);
             //Console.Write("Eredeti lista: ");
             //Kiir(lista);
 
@@ -49,6 +51,67 @@ namespace rendezes
             //Kiir(c);
 
             Console.WriteLine();
+            ora.Reset();
+
+            List<int> d = new List<int>(lista);
+            ora.Start();
+            BeszurasRendez(d);
+            ora.Stop();
+            long beszurasosrendezes = ora.ElapsedTicks;
+            Console.WriteLine("Beszúrásos rendezés: " + beszurasosrendezes);
+        }
+
+        static List<int> BeszurasRendez(List<int> lista)
+        {
+            List<int> rendezett = new List<int>(); ;
+            foreach (int item in lista)
+            {
+                int i = 0;
+                while (i < rendezett.Count && !(item <= rendezett[i]))
+                {
+                    i++;
+                }
+                if (i < rendezett.Count)
+                {
+                    rendezett.Insert(i, item);
+                }
+                else
+                {
+                    rendezett.Insert(rendezett.Count, item);
+                }
+            }
+            return rendezett;
+        }
+
+        static List<int> FeltoltMajdenmRendezett(int n)
+        {
+            Random r = new Random();
+            List<int> eredmény = new List<int>();
+            int akt = 20;
+            for (int i = 0; i < n; i++)
+            {
+                eredmény.Add(akt);
+                int esely = r.Next(1, 101);
+                if (esely <= 90)
+                {
+                    akt++;
+                }
+                else
+                {
+                    akt--;
+                }
+            }
+            return eredmény;
+        }
+
+        private static List<int> FeltoltRendezett(int n)
+        {
+            List<int> eredmény = new List<int>();
+            for (int i = 0; i < n; i++)
+            {
+                eredmény.Add(i + 1);
+            }
+            return eredmény;
         }
 
         static void Buborekos(List<int> lista)
