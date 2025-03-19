@@ -20,8 +20,20 @@ namespace kiraly
 
             List<int> idosav = new List<int>();
             Rendezes(nevek, evszam, hossz);
-            Kiir(nevek, evszam, hossz);
+            //Kiir(nevek, evszam, hossz);
             //Hozzafuz(nevek, primek);
+
+            Fajlkiir(nevek, evszam, hossz);
+        }
+
+        static void Fajlkiir(List<string> nevek, List<int> evszam, List<int> hossz)
+        {
+            StreamWriter kiir = new StreamWriter("ki.txt");
+            for (int i = 0; i < nevek.Count; i++)
+            {
+                Console.WriteLine($"{nevek[i]}, {evszam[i]}, {hossz[i]}");
+            }
+            kiir.Close();
         }
 
         static void Kiir(List<string> nevek, List<int> evszam, List<int> hossz)
