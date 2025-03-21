@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Runtime.InteropServices;
 
 namespace Termekek
 {
@@ -19,7 +20,96 @@ namespace Termekek
             List<Termek> termekek = new List<Termek>(); // products
             Beolvas(termekek);
             Kiir(termekek);
+
             Osszegzes(termekek);
+
+            Legdragabb(termekek);
+
+            List<string> elelmiszerek = CsakElelmiszer(termekek);
+            Kiir(elelmiszerek);
+
+            Console.WriteLine();
+            Console.WriteLine("\nDrágább, mint a szomszédai: " + Draga(termekek));
+
+            Rendez(termekek);
+            Console.WriteLine();
+            Kiir(termekek);
+        }
+
+        static void Rendez(List<Termek> termekek)
+        {
+            for (int i = 0; i < termekek.Count; i++)
+            {
+                int mini = i;
+                for (int j = mini; j < termekek.Count; j++)
+                {
+                    if (termekek[i].ar > termekek[mini].ar)
+                    {
+                        mini = j;
+                    }
+                }
+                Csere(termekek, i, mini);
+            }
+        }
+
+        static void Csere(List<Termek> termekek, int i, int mini)
+        {
+            (termekek[mini], termekek[i]) = (termekek[i], termekek[mini]);
+        }
+
+        static string Draga(List<Termek> termekek)
+        {
+            int i = 1;
+            while (i < termekek.Count && !(termekek[i].ar > termekek[i - 1].ar && termekek[i].ar > termekek[i + 1].ar))
+            {
+                i++;
+            }
+            if (i < termekek.Count)
+            {
+                return termekek[i].nev;
+            }
+            else
+            {
+                return "-";
+            }
+        }
+
+        static void Kiir(List<string> elelmiszerek)
+        {
+            Console.WriteLine();
+            for (int i = 0; i < elelmiszerek.Count; i++)
+            {
+                Console.Write(elelmiszerek[i] + ", ");
+            }
+        }
+
+        static List<string> CsakElelmiszer(List<Termek> termekek)
+        {
+            List<string> elelmiszerek = new List<string>();
+            for (int i = 0; i < termekek.Count; i++)
+            {
+                if (termekek[i].elelmiszerE)
+                {
+                    elelmiszerek.Add(termekek[i].nev);
+                }
+            }
+            return elelmiszerek;
+        }
+
+        static Termek Legdragabb(List<Termek> termekek)
+        {
+            int maxi = 0;
+            Termek maxe = termekek[0];
+            for (int i = 0; i < termekek.Count; i++)
+            {
+                if (termekek[i].ar > termekek[maxi].ar)
+                {
+                    maxi = i ;
+                    maxe = termekek[i];
+                }
+            }
+            Console.WriteLine($"\nA legdrágább termék: {maxe.nev} - {maxe.ar}Ft, {maxi}. elem");
+            return maxe;
         }
 
         static int Osszegzes(List<Termek> termekek)
