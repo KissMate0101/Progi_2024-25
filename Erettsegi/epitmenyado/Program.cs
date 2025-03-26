@@ -1,69 +1,89 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace epitmenyado
+namespace Epitmenyado
 {
     internal class Program
     {
-        struct Telkek
+        struct Lakas
         {
-            public string adoszam;
+            public string adoszam; // A lakás tulajdonosának adószáma
             public string utca;
-            public string hazszam;
+            public string hsz;
             public char sav;
-            public int negyzetmeter;
+            public int terulet;
         }
 
-        struct Savszorzo
-        {
-            public int a;
-            public int b;
-            public int c;
-        }
+        //struct Savszorzo
+        //{
+        //    public int a;
+        //    public int b;
+        //    public int c;
+        //}
 
+        // int a, b, c
+        // List<int> (3 elemű)
+        // struct Savszorzo (adattagok: a, b, c)
+        // Dictionary<char, int>
         static void Main(string[] args)
         {
-            List<Telkek> telkek = new List<Telkek>();
-            Beolvas(telkek);
-            Kiir(telkek);
+            List<Lakas> lakasok = new List<Lakas>();
+            Dictionary<char, int> adok = new Dictionary<char, int>();
+            Beolvas(lakasok, adok);
 
-            Savszorzo savszorzo = new Savszorzo { a = 800, b = 600, c = 180};
+            F2(lakasok);
+
+            F3(lakasok);
         }
 
-        static void Kiir(List<Telkek> telkek)
+        static void F3(List<Lakas> lakasok)
         {
-            for (int i = 0; i < telkek.Count; i++)
+            Console.Write("\n3. feladat. Egy tulajdonos adószáma: ");
+            string adoszam =  Console.ReadLine();
+            int db = 0;
+
+            for (int i = 0; i < lakasok.Count; i++)
             {
-                Console.WriteLine($"" +
-                    $"{telkek[i].adoszam}" +
-                    $"{telkek[i].utca}" +
-                    $"{telkek[i].hazszam}" +
-                    $"{telkek[i].sav}" +
-                    $"{telkek[i].negyzetmeter}");
+                if (adoszam == lakasok[i].adoszam)
+                {
+                    db++;
+                    Console.WriteLine($"{lakasok[i].utca} utca {lakasok[i].hsz}");
+                }
+            }
+            if (db == 0)
+            {
+                Console.WriteLine("Nem szerepel az adatállományban.");
             }
         }
 
-        static void Beolvas(List<Telkek> telkek)
+        static void F2(List<Lakas> lakasok)
         {
-            StreamReader sr = new StreamReader("utca.txt");
-            while (!sr.EndOfStream)
+            Console.WriteLine($"\n2. feladat. A mintában {lakasok.Count} telek szerepel.");
+        }
+
+        static void Beolvas(List<Lakas> lakasok, Dictionary<char, int> adok)
+        {
+            StreamReader reader = new StreamReader("utca.txt");
+            string[] adatok = reader.ReadLine().Split();
+            adok.Add('A', int.Parse(adatok[0]));
+            adok.Add('B', int.Parse(adatok[1]));
+            adok.Add('C', int.Parse(adatok[2]));
+            while (!reader.EndOfStream)
             {
-                string[] sor = sr.ReadLine().Split(';');
-                Telkek telek = new Telkek
+                string[] sor = reader.ReadLine().Split();
+                Lakas ujlakas = new Lakas
                 {
                     adoszam = sor[0],
                     utca = sor[1],
-                    hazszam = sor[2],
+                    hsz = sor[2],
                     sav = char.Parse(sor[3]),
-                    negyzetmeter = int.Parse(sor[4])
+                    terulet = int.Parse(sor[4])
                 };
-                telkek.Add(telek);
+                lakasok.Add(ujlakas);
             }
-            sr.Close();
+            reader.Close();
         }
     }
 }
