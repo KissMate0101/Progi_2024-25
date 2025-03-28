@@ -41,35 +41,53 @@ namespace Epitmenyado
 
         static void F5(List<Lakas> lakasok, Dictionary<char, int> adok)
         {
-            int dba = 0;
-            int dbb = 0;
-            int dbc = 0;
+            //    int dba = 0;
+            //    int dbb = 0;
+            //    int dbc = 0;
 
-            int osszdbA = 0;
-            int osszdbB = 0;
-            int osszdbC = 0;
-            for (int i = 0; i < lakasok.Count; i++)
+            //    int osszdbA = 0;
+            //    int osszdbB = 0;
+            //    int osszdbC = 0;
+            //    for (int i = 0; i < lakasok.Count; i++)
+            //    {
+            //        if (lakasok[i].sav == 'A')
+            //        {
+            //            dba++;
+            //            osszdbA += Ado(lakasok[i].sav, lakasok[i].terulet, adok);
+            //        }
+            //        else if (lakasok[i].sav == 'B')
+            //        {
+            //            dbb++;
+            //            osszdbB += Ado(lakasok[i].sav, lakasok[i].terulet, adok);
+            //        }
+            //        else
+            //        {
+            //            dbc++;
+            //            osszdbC += Ado(lakasok[i].sav, lakasok[i].terulet, adok);
+            //        }
+            //    }
+            //    Console.WriteLine("5. feladat");
+            //    Console.WriteLine($"A sávba {dba} telek esik, az adó {osszdbA} Ft.");
+            //    Console.WriteLine($"B sávba {dbb} telek esik, az adó {osszdbB} Ft.");
+            //    Console.WriteLine($"C sávba {dbc} telek esik, az adó {osszdbC} Ft.");
+
+            Dictionary<char, int> daradok = new Dictionary<char, int>();
+            daradok['A'] = 0;
+            daradok['B'] = 0;
+            daradok['C'] = 0;
+
+            Dictionary<char, int> osszegek = new Dictionary<char, int>
             {
-                if (lakasok[i].sav == 'A')
-                {
-                    dba++;
-                    osszdbA += Ado(lakasok[i].sav, lakasok[i].terulet, adok);
-                }
-                else if (lakasok[i].sav == 'B')
-                {
-                    dbb++;
-                    osszdbB += Ado(lakasok[i].sav, lakasok[i].terulet, adok);
-                }
-                else
-                {
-                    dbc++;
-                    osszdbC += Ado(lakasok[i].sav, lakasok[i].terulet, adok);
-                }
+                {'A', 0},
+                {'B', 0},
+                {'C', 0}
+            };
+
+            foreach (Lakas lakas in lakasok)
+            {
+                daradok[lakas.sav]++;
+                osszegek[lakas.sav]++;
             }
-            Console.WriteLine("5. feladat");
-            Console.WriteLine($"A sávba {dba} telek esik, az adó {osszdbA} Ft.");
-            Console.WriteLine($"B sávba {dbb} telek esik, az adó {osszdbB} Ft.");
-            Console.WriteLine($"C sávba {dbc} telek esik, az adó {osszdbC} Ft.");
         }
 
         static int Ado(char sav, int alapterulet, Dictionary<char, int> adok)
